@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "Data_science.html",
+    "href": "Data_science.html",
+    "title": "Data Science",
+    "section": "",
+    "text": "I think that data science is mainly about the ability to use messy, real-world data in order to gather insights and make decisions. It involves:\n\nidentifying the question that can be answered using data\nloading in required data and doing necessary cleaning\nworking with the data and creating models\ncommunicating results to various audiences.\n\n\n\n\nI think that data scientists and statisticians, while in a very similar field, differ mainly in their focus. Statisticians tend to work more with the theoretical side, and work with creating models first then applying that to data. Data scientists, on the other hand, start with the data and figure out what models to use based on that data. Statisticians to me deal more with the actual concepts, whereas data scientists work with identifying problems and solving them using those concepts.\n\n\n\nI would definitely view myself as more of a data scientist, or at least that is the field that I hope to work in throughout my professional career. I tend to be much more interested in the application side opposed to the theoretical side, which to me separates statisticians from data scientists."
+  },
+  {
+    "objectID": "Data_science.html#part-1-questions",
+    "href": "Data_science.html#part-1-questions",
+    "title": "Data Science",
+    "section": "",
+    "text": "I think that data science is mainly about the ability to use messy, real-world data in order to gather insights and make decisions. It involves:\n\nidentifying the question that can be answered using data\nloading in required data and doing necessary cleaning\nworking with the data and creating models\ncommunicating results to various audiences.\n\n\n\n\nI think that data scientists and statisticians, while in a very similar field, differ mainly in their focus. Statisticians tend to work more with the theoretical side, and work with creating models first then applying that to data. Data scientists, on the other hand, start with the data and figure out what models to use based on that data. Statisticians to me deal more with the actual concepts, whereas data scientists work with identifying problems and solving them using those concepts.\n\n\n\nI would definitely view myself as more of a data scientist, or at least that is the field that I hope to work in throughout my professional career. I tend to be much more interested in the application side opposed to the theoretical side, which to me separates statisticians from data scientists."
+  },
+  {
+    "objectID": "Data_science.html#part-2-coding",
+    "href": "Data_science.html#part-2-coding",
+    "title": "Data Science",
+    "section": "Part 2: Coding",
+    "text": "Part 2: Coding\nFirst, we are creating our object y.\n\ny &lt;- density(iris$Petal.Width)\n\nNext, we want to determine the class, type, and structure of the object y\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 7\n $ x        : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y        : num [1:512] 0.00163 0.0018 0.00199 0.00219 0.00241 ...\n $ bw       : num 0.252\n $ n        : int 150\n $ call     : language density.default(x = iris$Petal.Width)\n $ data.name: chr \"iris$Petal.Width\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nAs we can see, the class of y is a density and it’s type is a list. It’s structure is also seen in the output above.\nFinally, we would like to visualize y using the plot function."
+  }
+]

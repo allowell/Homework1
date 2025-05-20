@@ -1,0 +1,54 @@
+---
+title: "Data Science"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+## Part 1: Questions
+
+#### Question 1: What do you think being a data scientist is about?
+
+I think that data science is mainly about the ability to use messy, real-world data in order to gather insights and make decisions. It involves:
+
+-   identifying the question that can be answered using data
+
+-   loading in required data and doing necessary cleaning
+
+-   working with the data and creating models
+
+-   communicating results to various audiences.
+
+#### Question 2: What differences/similarities do you see between data scientists and statisticians?
+
+I think that data scientists and statisticians, while in a very similar field, differ mainly in their focus. Statisticians tend to work more with the theoretical side, and work with creating models first then applying that to data. Data scientists, on the other hand, start with the data and figure out what models to use based on that data. Statisticians to me deal more with the actual concepts, whereas data scientists work with identifying problems and solving them using those concepts.
+
+#### Question 3: How do you view yourself in relation to these two areas?
+
+I would definitely view myself as more of a data scientist, or at least that is the field that I hope to work in throughout my professional career. I tend to be much more interested in the application side opposed to the theoretical side, which to me separates statisticians from data scientists.
+
+## Part 2: Coding
+
+First, we are creating our object y.
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+Next, we want to determine the class, type, and structure of the object y
+
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+
+As we can see, the class of y is a density and it's type is a list. It's structure is also seen in the output above.
+
+Finally, we would like to visualize y using the plot function.
+
+```{r}
+#| echo: false
+plot(y)
+```
